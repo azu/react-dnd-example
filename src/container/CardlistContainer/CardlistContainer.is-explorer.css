@@ -1,0 +1,7 @@
+.CardListContainer.is-explorer {
+  position: absolute;
+  top: 0;
+  left: 300px;
+  height: 144px;
+  overflow: hidden;
+}

@@ -1,0 +1,7 @@
+/*
+  ドラッグ中は 元CardItemは 領域を維持したまま非表示にする
+  代わりに `PreviewCartItem` が表示される
+ */
+.CardItem.is-dragging {
+  visibility: hidden;
+}

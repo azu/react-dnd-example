@@ -1,0 +1,26 @@
+.CardItem {
+    display: inline-block;
+    position: relative;
+    background: white;
+    cursor: pointer;
+}
+
+.CardItem > * {
+  pointer-events: none;
+}
+
+.CardItem-title {
+    font-size: 13px;
+    margin: 0;
+    padding: 0;
+}
+
+/* Cardの中身は中央寄せする */
+.CardItem-thumbnail {
+    display: block;
+    margin: 0 auto;
+}
+
+.CardItem-title {
+    text-align: center;
+}

@@ -1,0 +1,5 @@
+/* デバッグ用 */
+.CardItem.is-over {
+  border: 1px red solid;
+  box-sizing: border-box;
+}

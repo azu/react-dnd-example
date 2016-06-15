@@ -1,0 +1,13 @@
+@charset "utf-8";
+/* Container component */
+@import "./container/**/*.css";
+/* component */
+@import "./project/**/*.css";
+
+body {
+    background-color: black;
+}
+
+* {
+    box-sizing: border-box;
+}

@@ -1,0 +1,10 @@
+.CardListContainer {
+  width: 100%;
+  height: 100%;
+  /*
+  position: relative にすることで
+  CardItemが**この要素**からの相対座標として、
+  CardItem.offsetLeft を取ることができる
+  */
+  position: relative;
+}
