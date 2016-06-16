@@ -1,26 +1,26 @@
-.CardItem {
+.Item {
     display: inline-block;
     position: relative;
     background: white;
     cursor: pointer;
 }
 
-.CardItem > * {
-  pointer-events: none;
+.Item > * {
+    pointer-events: none;
 }
 
-.CardItem-title {
+.Item-title {
     font-size: 13px;
     margin: 0;
     padding: 0;
 }
 
 /* Cardの中身は中央寄せする */
-.CardItem-thumbnail {
+.Item-thumbnail {
     display: block;
     margin: 0 auto;
 }
 
-.CardItem-title {
+.Item-title {
     text-align: center;
 }

@@ -26,11 +26,10 @@ class CardListDraggableArea extends React.Component {
 
     constructor() {
         super();
-        this._wrapper = null;
     }
 
     render() {
-        return <div className="CardListDraggableArea" ref={(e) => this._wrapper = e}>
+        return <div className="CardListDraggableArea">
             {React.Children.only(this.props.children)}
         </div>;
     }

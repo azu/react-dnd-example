@@ -1,7 +1,7 @@
 // LICENSE : MIT
 'use strict';
 import React from 'react';
-import CardItem,{PlayCardItem} from '../CardItem/CardItem';
+import CardItem from '../CardItem/CardItem';
 import suitClassNames from 'suitcss-classnames';
 import {DragLayer} from 'react-dnd';
 class DragDropCardPreviewCreator {
@@ -144,7 +144,7 @@ class PreviewCartItem extends React.Component {
         return (
             <div className={className} style={style}>
                 {info}
-                <PlayCardItem
+                <CardItem
                     cardSize={cardSize}
                     id={item.id}
                     title={item.title}

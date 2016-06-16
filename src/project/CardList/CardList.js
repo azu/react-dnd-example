@@ -1,9 +1,9 @@
 'use strict';
 import React from 'react';
 import CardItem from './CardItem/CardItem';
-import DnDCardItemWrapper from './CardItem/DnDCardItemWrapper';
+import DraggableCardItem from './CardItem/DraggableCardItem';
 import PreviewCardItem from './PreviewCardItem/PreviewCardItem';
-export default class VideoCardList extends React.Component {
+export default class CardList extends React.Component {
     static propTypes = {
         cardSize: React.PropTypes.shape({
             width: React.PropTypes.number.isRequired,
@@ -15,17 +15,15 @@ export default class VideoCardList extends React.Component {
 
     render() {
         const items = this.props.items.map((item, index) => {
-            return <DnDCardItemWrapper>
-                <CardItem
-                    key={item.id}
-                    index={index}
-                    id={item.id}
-                    title={item.title}
-                    thumbnailURL={item.thumbnailURL}
-                    onSwap={this.props.onSwap}
-                    cardSize={this.props.cardSize}
-                />
-            </DnDCardItemWrapper>;
+            return <DraggableCardItem
+                key={item.id}
+                index={index}
+                id={item.id}
+                title={item.title}
+                thumbnailURL={item.thumbnailURL}
+                onSwap={this.props.onSwap}
+                cardSize={this.props.cardSize}
+            />
         });
         return (
             <div className="CardList">
