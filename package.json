@@ -52,7 +52,11 @@
   },
   "dependencies": {
     "classname": "0.0.0",
+    "lodash.flow": "^3.4.0",
     "react": "^15.1.0",
-    "react-dom": "^15.1.0"
+    "react-dnd": "^2.1.4",
+    "react-dnd-touch-backend": "^0.3.0",
+    "react-dom": "^15.1.0",
+    "suitcss-classnames": "^1.1.0"
   }
 }

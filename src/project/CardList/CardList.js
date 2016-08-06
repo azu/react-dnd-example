@@ -1,7 +1,6 @@
 'use strict';
 import React from 'react';
 import CardItem from './CardItem/CardItem';
-import DraggableCardItem from './CardItem/DraggableCardItem';
 import PreviewCardItem from './PreviewCardItem/PreviewCardItem';
 export default class CardList extends React.Component {
     static propTypes = {
@@ -15,7 +14,7 @@ export default class CardList extends React.Component {
 
     render() {
         const items = this.props.items.map((item, index) => {
-            return <DraggableCardItem
+            return <CardItem
                 key={item.id}
                 index={index}
                 id={item.id}

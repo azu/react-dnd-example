@@ -1,6 +1,10 @@
 # react-dnd-example
 
-React D&amp;D example
+React D&amp;D example.
+
+Exchange side-by-side items.
+
+![screen shot](ss.gif)
 
 ## Install
 

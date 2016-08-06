@@ -3,7 +3,7 @@ import flow from 'lodash.flow';
 import {DropTarget, DragSource} from 'react-dnd';
 import {CardType} from '../CardType';
 import {findDOMNode} from 'react-dom';
-import CardItem from "./CardItem";
+import Item from "./Item";
 // ドラッグ元としての動作を定義する
 // CardItemをDrag元とした時の処理
 const sourceCollector = (connect, monitor) => {
@@ -81,7 +81,7 @@ class CardItem extends React.Component {
 
     render() {
         let content = <div className="CardItem">
-            <CardItem {...this.props}/>
+            <Item {...this.props}/>
         </div>;
         content = this.props.connectDragSource(content, {dropEffect: 'move'});
         // Connect as drop target
