@@ -6,26 +6,6 @@ Exchange side-by-side items.
 
 ![screen shot](ss.gif)
 
-## Install
-
-Install with [npm](https://www.npmjs.com/):
-
-    npm install react-dnd-example
-
-## Usage
-
-- [ ] Write usage instructions
-
-## Changelog
-
-See [Releases page](https://github.com/azu/react-dnd-example/releases).
-
-## Running tests
-
-Install devDependencies and Run `npm test`:
-
-    npm i -d && npm test
-
 ## Contributing
 
 Pull requests and stars are always welcome.
